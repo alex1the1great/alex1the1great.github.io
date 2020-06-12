@@ -1,0 +1,92 @@
+/* Project Container */
+.projects-container {
+    margin: 0rem 2rem;
+}
+
+.projects-container h1 {
+    margin-bottom: 1.2rem;
+}
+/* Project Container --> */
+
+
+/* Cards */
+.card {
+    width: 18rem;
+    background-color: #f1f1f1;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.description {
+    margin-bottom: 1rem;
+}
+/* Cards --> */
+
+/* Buttons */
+.btn {
+    background-color: #18D26E;
+    color: #fff;
+    text-decoration: none;
+    padding: .3rem 1rem;
+    border-radius: 3px;
+}
+
+.pagination {
+    margin-left: 3rem;
+}
+
+.prev {
+    margin-right: 1rem;
+}
+
+.next, .prev {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #3A3C3F;
+    margin-top: 1rem;
+}
+/* Buttons --> */
+
+/* loader */
+#loading {
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+.loader {
+    font-size: 5rem;
+    animation: spin 3s linear infinite;
+    color: #18D26E;
+
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* loader --> */
+
+@media screen and (max-width: 600px) {
+    #projects {
+        margin-top: 1.5rem;
+    }
+
+    #loading {
+        margin-left: 40%;
+        margin-top: 50%;
+    }
+
+    .next, .prev {
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+
+    }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/projects.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <title>Asim Shrestha | Software Engineer</title>
+</head>
+<body>
+    <!-- Nav -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+        </ul>
+    </nav>
+    <!-- Nav -->
+
+    <!-- Hamburger -->
+    <div class="nav">
+        <div class="navbar">
+            <div >
+                <a href="/index.html">Home</a>
+            </div>
+            <div class="ham-active">
+                <a href="/projects.html">Projects</a>
+            </div>
+        </div>
+    </div>
+    <!-- Hamburger -->
+
+    <!-- Project Container -->
+    <div class="projects-container">
+        <h1 id=projects>Projects</h1>
+        <!-- Spinner -->
+        <div id="loading">
+            <i class="fas fa-spinner loader"></i>
+        </div>
+
+        <!-- Card -->
+        <div id="content" hidden>
+            <div id="cards">
+        </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="prev btn">First</button>
+                <button class="next btn">More</button>
+            </div>
+        </div>
+    </div>
+
+        <!-- JS -->
+        <script src="/js/main.js"></script>
+</body>
+</html>
